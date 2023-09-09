@@ -1,0 +1,32 @@
+$bg:black;
+
+.banner{
+    height:250px;
+    background-color: $bg;
+    background-image: url();
+}
+.row{
+    background-color: $bg;
+    padding: 10px;
+
+    >h2{
+        font-weight: 200;
+    }
+    >div{
+        display: flex;
+        padding: 5px;
+        overflow-x: auto;
+    }
+}
+.card{
+    width:150px;
+    height:220px;
+    transition: transform 0.4s;
+    cursor: pointer;
+    margin: 0.3rem;
+
+    &:hover{
+        transform: translateY(-15px) scale(1.1);
+    }
+
+}
